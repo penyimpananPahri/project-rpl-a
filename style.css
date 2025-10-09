@@ -4,7 +4,18 @@
 
 body{
     font-family: "poppins";
-    background-color: green;
+    background-color: #e5e5e5;
+}
+
+/* layar */
+.navbar{
+    z-index: 5;
+}
+*{
+ z-index: 2;   
+}
+.accent-banner{
+    z-index: 1;
 }
 .navbar-brand{
     font-size: 20px;
@@ -34,7 +45,52 @@ font-weight: 400;
     height: 40px;
     background-color: transparent;
     border: none;
-    color: white;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
+/* navbar end */
+/* ini section pertama */
+#hero{
+    background: linear-gradient(160deg,var(--warna-hijau), #000);
+    height: 100vh;
+}
+
+
+
+
+
+.text-me h1{
+    font-size: 50px;
+    font-weight: 700;
+   color: #fff;
+   line-height: 70px;
+   
+}
+
+.text-me p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    width:85%;
+}
+.btn-lg {
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    color: var(--warna-hijau);
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+/* ini hero section end */
+
+/* layanan style */
+#our-service{
+    height: 100vh;
+}
+
+/* end layanan style */
